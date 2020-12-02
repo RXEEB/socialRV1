@@ -1,0 +1,40 @@
+
+.dialogs{
+
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs__items{
+    font-family: 'Oswald', sans-serif;
+}
+.dialog{
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.dialogs__items a{
+    text-decoration: none;
+}
+
+.dialog:hover{
+    padding-left: 10px;
+
+}
+.activeLink {
+    color: red;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+
+
+
+.massage__items{
+
+}
+.massage{
+    border: 1px solid #dddddd;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,67 @@
+
+.dialogs{
+
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs__items{
+    font-family: 'Oswald', sans-serif;
+
+}
+.dialog{
+    margin-bottom: 10px;
+    transition: 0.5s;
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    justify-content: space-evenly;
+
+
+
+}
+.dialogs__items a{
+    text-decoration: none;
+
+}
+
+.dialog:hover{
+    padding-left: 10px;
+
+}
+.dialog .activeLink {
+    color: red;
+
+    transition: 0.5s;
+
+}
+
+
+
+
+.message__items{
+
+
+
+}
+.message__wrapper{
+    display: flex;
+    align-content: space-between;
+
+}
+.message{
+
+    background: #ebebeb;
+    border: 1px solid #dddddd;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+    border-radius: 20px;
+
+
+}
+textarea{
+    width: 100%;
+}.rus{
+    background-color: #3b5998;
+ }

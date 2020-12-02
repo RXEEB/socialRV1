@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3b5998;
+    margin-bottom: 30px;
+
+
+
+
+
+}
+.logo{
+
+    margin: 10px 20px;
+}
+.login{
+    margin-right: 100px;
+    color: #dddddd;
+}
